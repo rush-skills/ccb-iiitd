@@ -32,6 +32,14 @@
                 <li>
                     <a href="research.html">Research</a>
                 </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Academic<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="academic-program-btech-minor.html">B Tech Minor</a></li>
+                        <li><a href="academic-program-mtech.html">M Tech</a></li>
+                        <li><a href="academic-program-phd.html">PHD</a></li>
+                    </ul>
+                </li>
                 <li>
                     <a href="people.html">People</a>
                 </li>
@@ -145,9 +153,9 @@
 
             <h1>Know More</h1>
             <div class="btn-group">
-                <a class="btn btn-warning btn-lg" href="index.html">Home</a>
+                <a class="btn btn-info btn-lg" href="advisory-board.html">Advisory Board</a>
                 <a class="btn btn-danger btn-lg" href="people.html">People</a>
-                <a class="btn btn-info btn-lg" href="research.html">Research</a>
+                <a class="btn btn-warning btn-lg" href="collaborators.html">Collaborators</a>
             </div>
 
         </div>
@@ -190,6 +198,13 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false
+        });
+    });
+    $(document).ready(function(){
+        $('ul.nav li.dropdown').hover(function() {
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(200);
+        }, function() {
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(200);
         });
     });
 </script>

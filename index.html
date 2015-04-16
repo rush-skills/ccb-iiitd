@@ -29,16 +29,24 @@
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-right navbar-nav">
-        <li>
+          <li>
           <a href="research.html">Research</a>
         </li>
-        <li>
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Academic<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                  <li><a href="academic-program-btech-minor.html">B Tech Minor</a></li>
+                  <li><a href="academic-program-mtech.html">M Tech</a></li>
+                  <li><a href="academic-program-phd.html">PHD</a></li>
+              </ul>
+          </li>
+          <li>
           <a href="people.html">People</a>
         </li>
-        <li>
+          <li>
           <a href="publications.html">Publications</a>
         </li>
-        <li>
+          <li>
           <a href="contact.html">Contact</a>
         </li>
       </ul>
@@ -203,11 +211,11 @@
     <div class="col col-sm-6 col-sm-offset-3" style="text-align: center">
       
       <h1>Know More</h1>
-      <div class="btn-group">
-          <a class="btn btn-warning btn-lg" href="research.html">Research</a>
-          <a class="btn btn-danger btn-lg" href="people.html">People</a>
-          <a class="btn btn-info btn-lg" href="publications.html">Publications</a>
-      </div>
+        <div class="btn-group">
+            <a class="btn btn-info btn-lg" href="advisory-board.html">Advisory Board</a>
+            <a class="btn btn-danger btn-lg" href="people.html">People</a>
+            <a class="btn btn-warning btn-lg" href="collaborators.html">Collaborators</a>
+        </div>
       
     </div>
   </div>
@@ -222,15 +230,15 @@
     <div class="row">
       <div class="col-sm-6">
         <ul class="list-inline">
-          <li><i class="icon-facebook icon-2x"></i></li>
-          <li><i class="icon-twitter icon-2x"></i></li>
-          <li><i class="icon-google-plus icon-2x"></i></li>
+          <li><a href="#"><i class="icon-facebook icon-2x"></i></a></li>
+          <li><a href="#"><i class="icon-twitter icon-2x"></i></a></li>
+          <li><a href="#"><i class="icon-google-plus icon-2x"></i></a></li>
           <!--<li><i class="icon-pinterest icon-2x"></i></li>-->
         </ul>
         
       </div>
       <div class="col-sm-6">
-          <p class="pull-right">Built with <a href="https://github.com/rush-skills/ccb-iiitd"><i class="icon-heart-empty"></i></a> at <a href="http://www.iiitd.ac.in">IIIT-Delhi</a></p>
+          <p class="pull-right">Built at <a href="http://www.iiitd.ac.in">IIIT-Delhi</a></p>
       </div>
     </div>
   </div>
@@ -257,6 +265,13 @@
                     slidesToShow: 4,
                     slidesToScroll: 1,
                     arrows: false
+                });
+            });
+            $(document).ready(function(){
+                $('ul.nav li.dropdown').hover(function() {
+                    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(200);
+                }, function() {
+                    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(200);
                 });
             });
         </script>

@@ -178,3 +178,8 @@ a,a:hover {
     line-height: 2;
     font-weight: 600;
 }
+
+.slick-list{
+    overflow: hidden;
+}
+slick

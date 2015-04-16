@@ -1,153 +1,197 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>CCB at IIITD</title>
-  <meta name="description" content="CCB website template" />
-  <meta name="keywords" content="Computational Biology, Bioinformatics, Biophysics, Systems Biology" />
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=9" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/image_slide.js"></script>
-  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
-  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('ul.sf-menu').sooperfish();
-    });
-  </script>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>CCB@IIIT-Delhi</title>
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/slick.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/styles.css" rel="stylesheet">
 </head>
-
 <body>
-  <div id="main">
-	<div id="dark_container">
-	  <div id="banner">
-	    <div id="welcome">
-	      <h1>Center for Computational Biology</h1>
-	    </div><!--close welcome-->
-	    <div id="welcome_slogan">
-	      <h1>Indraprastha Institute of Information Technoilogy, Delhi</h1>
-	    </div><!--close welcome_slogan-->
-        <div id="slideshow">  
-		  <ul class="slideshow">
-        <li class="show"><img width="940" height="250" src="images/ab3.png" alt="&quot;Enter your caption here&quot;" /></li>
-         <li class="show"><img width="940" height="250" src="images/ab4.png" alt="&quot;Enter your caption here&quot;" /></li>
-         <li class="show"><img width="940" height="250" src="images/sb1.jpg" alt="&quot;Enter your caption here&quot;" /></li>
-         <li class="show"><img width="940" height="250" src="images/sk1.jpg" alt="&quot;Enter your caption here&quot;" /></li>
-         <li class="show"><img width="940" height="250" src="images/ab1.jpg" alt="&quot;Enter your caption here&quot;" /></li>
-         <li class="show"><img width="940" height="250" src="images/sb2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
-         <li class="show"><img width="940" height="250" src="images/sk2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
-         <li class="show"><img width="940" height="250" src="images/ab2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
-          </ul> 
-	    </div><!--close slideshow-->	  
-	  </div><!--close banner-->	
-	</div><!--close dark_container-->
+<header class="navbar navbar-bright navbar-fixed-top" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">Home</a>
+        </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+            <ul class="nav navbar-right navbar-nav">
+                <li>
+                    <a href="research.html">Research</a>
+                </li>
+                <li>
+                    <a href="people.html">People</a>
+                </li>
+                <li>
+                    <a href="publications.html">Publications</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
-	<div id="menu_container">
-	  <div id="menubar">
-        <ul class="sf-menu" id="nav">
-          <li><a href="index.html">Home</a></li>
-           <li><a href="research.html">Research</a></li>
-           <li><a href="people.html">People</a></li>
-          <li><a href="#">Academic Programs</a>
-		    <ul>
-		      <li><a href="academic-program-phd">PhD in CB</a></li>
-		      <li><a href="academic-program-mtech">M.Tech in CB</a></li>
-			  <li><a href="academic-program-btech-minor">B. Tech with CB Minor</a></li>
-			</ul>
-		  </li>			
-          <li class="selected"><a href="publications.html">Publications</a></li>
-			<ul>
-			  
-			    <ul>
-			      
-			  	  
-				</ul>
-			  </li>
-			</ul>
-		  </li>			
-          <li><a href="advisory-board.html">Advisory Board</a></li>
-           
-        </ul>
-      </div><!--close menubar-->	
-	</div><!--close menu_container-->	
-    
-        </ul>
-      </div><!--close menubar-->	
-	</div><!--close menu_container-->	
-    
-	<div id="site_content">		
+<div id="masthead">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h1>Center for Computational Biology
+                    <p class="lead">Indraprastha Institute of Information Technology, New Delhi</p>
+                </h1>
+            </div>
+            <div class="col-md-7">
+                <div class="well well-lg">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="slideshow" height="250" style="overflow: hidden">
+                                <div height="250"  ><img class="im" width="100%" height="250" src="images/ab3.jpg" alt="&quot;Enter your caption here&quot;" /></div>
+                                <div  height="250" ><img  class="" width="100%" height="250" src="images/ab4.jpg" alt="&quot;Enter your caption here&quot;" /></div>
+                                <div  height="250" ><img class=""  width="100%" height="250" src="images/sb1.jpg" alt="&quot;Enter your caption here&quot;" /></div>
+                                <div  height="250" ><img  class="" width="100%" height="250" src="images/sk1.jpg" alt="&quot;Enter your caption here&quot;" /></div>
+                                <div  height="250" ><img  class="" width="100%" height="250" src="images/ab1.jpg" alt="&quot;Enter your caption here&quot;" /></div>
+                                <div height="250"  ><img class=""  width="100%" height="250" src="images/sb2.jpg" alt="&quot;Enter your caption here&quot;" /></div>
+                                <div  height="250" ><img class=""  width="100%" height="250" src="images/sk2.jpg" alt="&quot;Enter your caption here&quot;" /></div>
+                                <div height="250"  ><img class=""  width="100%" height="250" src="images/ab2.jpg" alt="&quot;Enter your caption here&quot;" /></div>
 
-	  <div class="sidebar_container">       
-		<div class="sidebar">
-          <div class="sidebar_item">
-            <h2></h2>
-            <p></p>
-          </div><!--close sidebar_item--> 
-        </div><!--close sidebar-->     		
-		<div class="sidebar">
-          <div class="sidebar_item">
-            <h2></h2>
-            <h3></h3>
-            <p></p>         
-		  </div><!--close sidebar_item--> 
-        </div><!--close sidebar-->
-			<div class="sidebar">
-          <div class="sidebar_item">
-            <h3></h3>
-            <p></p>
-            </div><!--close sidebar_item--> 
-        </div><!--close sidebar-->  	
-        	
-        <div class="sidebar">
-          <div class="sidebar_item">
-            <h2></h2>
-            <p></p>
-            <p> <a href="mailto:info@iiitd.ac.in"></a></p>
-          </div><!--close sidebar_item--> 
-        </div><!--close sidebar-->
-       </div><!--close sidebar_container-->     	 
-	      	 
-	 	   
-      <div id="content">
-        <div class="content_item">
-        <h2>Selected Publications:</h2>
-<ul>
-<li> Raychaudhuri S. Kinetic Monte Carlo study of type 1/type 2 choice in apoptosis elucidates selective killing of cancer cells under death ligand induction. Open Journal of Apoptosis 2015 4:22-39. 
- <li> Raychaudhuri S, Raychaudhuri SC.  Death ligand concentration and the membrane proximal signaling module regulate the type 1/type 2 choice in apoptotic death signaling. Invited article for the special issue “Perspectives in Systems Biology”, Systems and Synthetic Biology 2014 8:83-97. 
- <li> Yu-Yang P, Das SC, A Reddy S, Tsourkas PK, Sohn HW, Liu W, Pierce SK, Raychaudhuri S. Dynamic clustering of BCR-lipid rafts in antigen affinity discrimination by B cells. Invited article for the book titled “B cells: molecular biology, developmental origin and impact on the immune system”. (Nova Publishing 2013).
- <li> Raychaudhuri, S, Raychaudhuri S. C. Monte Carlo study elucidates the type 1/type 2 choice in apoptotic death signaling in normal and cancer cells. Invited article for the special issue “Apoptosis”, Cells 2013 2:361-392.
- <li> Raychaudhuri, S, Das S. C. Low probability activation of Bax / Bak can induce selective killing of cancer cells by generating heterogeneity in apoptosis. Invited article for the special issue “Engineering for Cancer”, Journal of Healthcare Engineering 2013 4:47-66.
- <li> K Sriram, Maria Rodriguez-Fernandez, Francis J. Doyle III (2012 ) A detailed modular analysis of heat-shock protein dynamics under acute and chronic stress and its implication in anxiety disorders, PLoS one, 7(8): e42958.
-<li> K Sriram, Maria Rodriguez-Fernandez, Francis J. Doyle III (2012) Modeling cortisol dynamics in the Neuro-endocrine axis distinguishes normal, depression, and post-traumatic  stress disorder (PTSD) in humans, PLoS Comput.Biol, 8(2): e1002379.
-<li> Monika Heiner and K. Sriram (2010) Structural analysis to determine the core of hypoxia response network, PLoS one, 5(1):e8600.
-<li> Thermodynamic protein destabilization by GFP tagging: a case of inter-domain allostery. 
-Miri Sokolovski, Arnab Bhattacherjee, Naama Kessler, (Yaakov) Koby Levy, and Amnon Horovitz. Biophysical Journal. (under revision) 2015.
-<li> Search by proteins for their DNA target site: 2. The effect of DNA conformation on the dynamics of multidomain proteins.
-Arnab Bhattacherjee and Yaakov Levy. Nucleic Acid Research. 42(20), 12415-12424, 2014.
-<li> Search by proteins for their DNA target site: 1. The effect of DNA conformation on protein sliding.
-Arnab Bhattacherjee and Yaakov Levy. Nucleic Acid Research. 42(20), 12404-12414, 2014.
-<li> Conformational properties and aggregation of the 1-93 fragment of apolipoprotein A-I.
-Jitka Petrlova, Arnab Bhattacherjee, Wouter Boomssma, Stefan Wallin, Jens Lagerstedt and Anders Irb�ck. Protein Science, 23(110), 1559-1571, 2014.
-<li> Hybrid Monte Carlo with Non-Uniform Step Size.
-Christian Holzgr�fe, Arnab Bhattacherjee and Anders Irback. Journal of Chemical Physics, 140, 044105 (2014).
-<li> Exploring protein-peptide binding specificity through computational peptide screening.
-Arnab Bhattacherjee and Stefan Wallin. Plos Computational Biology 9 (10), e1003277, 2013.
-</ul>
-</p>
-			</div><!--close content_container--> 
-	    </div><!--close content_item-->
-	  </div><!--content-->   
-	</div><!--close site_content-->
- 
-  </div><!--close main-->
-  
-<div id="footer_container">
-    <div id="footer">
-	  <a href="http://www.iiitd.ac.in"></a> | <a href="http://www.iiitd.ac.in">IIITD Home </a>| <a href="contact.html"> Contact Us</a>
-    </div><!--close footer-->  
-  </div><!--close footer_container-->  
-  
+                            </div><!--close slideshow-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /cont -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="top-spacer"> </div>
+            </div>
+        </div>
+    </div><!-- /cont -->
+
+</div>
+
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <div class="panel">
+                <div class="panel-body">
+
+
+
+                    <!--/stories-->
+                    <div class="row homeitem">
+                        <h2>Selected Publications:</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item"> Raychaudhuri S. Kinetic Monte Carlo study of type 1/type 2 choice in apoptosis elucidates selective killing of cancer cells under death ligand induction. Open Journal of Apoptosis 2015 4:22-39.
+                            <li class="list-group-item"> Raychaudhuri S, Raychaudhuri SC.  Death ligand concentration and the membrane proximal signaling module regulate the type 1/type 2 choice in apoptotic death signaling. Invited article for the special issue “Perspectives in Systems Biology”, Systems and Synthetic Biology 2014 8:83-97.
+                            <li class="list-group-item"> Yu-Yang P, Das SC, A Reddy S, Tsourkas PK, Sohn HW, Liu W, Pierce SK, Raychaudhuri S. Dynamic clustering of BCR-lipid rafts in antigen affinity discrimination by B cells. Invited article for the book titled “B cells: molecular biology, developmental origin and impact on the immune system”. (Nova Publishing 2013).
+                            <li class="list-group-item"> Raychaudhuri, S, Raychaudhuri S. C. Monte Carlo study elucidates the type 1/type 2 choice in apoptotic death signaling in normal and cancer cells. Invited article for the special issue “Apoptosis”, Cells 2013 2:361-392.
+                            <li class="list-group-item"> Raychaudhuri, S, Das S. C. Low probability activation of Bax / Bak can induce selective killing of cancer cells by generating heterogeneity in apoptosis. Invited article for the special issue “Engineering for Cancer”, Journal of Healthcare Engineering 2013 4:47-66.
+                            <li class="list-group-item"> K Sriram, Maria Rodriguez-Fernandez, Francis J. Doyle III (2012 ) A detailed modular analysis of heat-shock protein dynamics under acute and chronic stress and its implication in anxiety disorders, PLoS one, 7(8): e42958.
+                            <li class="list-group-item"> K Sriram, Maria Rodriguez-Fernandez, Francis J. Doyle III (2012) Modeling cortisol dynamics in the Neuro-endocrine axis distinguishes normal, depression, and post-traumatic  stress disorder (PTSD) in humans, PLoS Comput.Biol, 8(2): e1002379.
+                            <li class="list-group-item"> Monika Heiner and K. Sriram (2010) Structural analysis to determine the core of hypoxia response network, PLoS one, 5(1):e8600.
+                            <li class="list-group-item"> Thermodynamic protein destabilization by GFP tagging: a case of inter-domain allostery.
+                                Miri Sokolovski, Arnab Bhattacherjee, Naama Kessler, (Yaakov) Koby Levy, and Amnon Horovitz. Biophysical Journal. (under revision) 2015.
+                            <li class="list-group-item"> Search by proteins for their DNA target site: 2. The effect of DNA conformation on the dynamics of multidomain proteins.
+                                Arnab Bhattacherjee and Yaakov Levy. Nucleic Acid Research. 42(20), 12415-12424, 2014.
+                            <li class="list-group-item"> Search by proteins for their DNA target site: 1. The effect of DNA conformation on protein sliding.
+                                Arnab Bhattacherjee and Yaakov Levy. Nucleic Acid Research. 42(20), 12404-12414, 2014.
+                            <li class="list-group-item"> Conformational properties and aggregation of the 1-93 fragment of apolipoprotein A-I.
+                                Jitka Petrlova, Arnab Bhattacherjee, Wouter Boomssma, Stefan Wallin, Jens Lagerstedt and Anders Irb�ck. Protein Science, 23(110), 1559-1571, 2014.
+                            <li class="list-group-item"> Hybrid Monte Carlo with Non-Uniform Step Size.
+                                Christian Holzgr�fe, Arnab Bhattacherjee and Anders Irback. Journal of Chemical Physics, 140, 044105 (2014).
+                            <li class="list-group-item"> Exploring protein-peptide binding specificity through computational peptide screening.
+                                Arnab Bhattacherjee and Stefan Wallin. Plos Computational Biology 9 (10), e1003277, 2013.
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+        </div><!--/col-12-->
+    </div>
+</div>
+
+
+<hr>
+
+<div class="container" id="footer">
+    <div class="row">
+        <div class="col col-sm-6 col-sm-offset-3" style="text-align: center">
+
+            <h1>Know More</h1>
+            <div class="btn-group">
+                <a class="btn btn-warning btn-lg" href="index.html">Home</a>
+                <a class="btn btn-danger btn-lg" href="people.html">People</a>
+                <a class="btn btn-info btn-lg" href="research.html">Research</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<hr>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <ul class="list-inline">
+                    <li><i class="icon-facebook icon-2x"></i></li>
+                    <li><i class="icon-twitter icon-2x"></i></li>
+                    <li><i class="icon-google-plus icon-2x"></i></li>
+                    <!--<li><i class="icon-pinterest icon-2x"></i></li>-->
+                </ul>
+
+            </div>
+            <div class="col-sm-6">
+                <p class="pull-right">Built with <a href="https://github.com/rush-skills/ccb-iiitd"><i class="icon-heart-empty"></i></a> at <a href="http://www.iiitd.ac.in">IIIT-Delhi</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- script references -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<!--<script src="js/image_slide.js"></script>-->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#slideshow").slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            vertical: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false
+        });
+    });
+</script>
 </body>
 </html>

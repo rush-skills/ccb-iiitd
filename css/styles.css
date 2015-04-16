@@ -182,4 +182,6 @@ a,a:hover {
 .slick-list{
     overflow: hidden;
 }
-slick
+#google_map {
+    height: 300px;
+}

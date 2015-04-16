@@ -186,3 +186,17 @@ a,a:hover {
 #google_map {
     height: 300px;
 }
+#slideshow div{
+    position: relative;
+}
+#slideshow .box {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+}
+#slideshow h2 {
+    padding-bottom: 5px;
+    font-size: 14px;
+}
